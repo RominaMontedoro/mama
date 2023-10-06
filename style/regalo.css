@@ -1,0 +1,46 @@
+#musica {
+    display: none;
+}
+
+h1 {
+    font-family: 'Croissant One', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(to right, #4c00ff, #ff33cc);
+    -webkit-background-clip: text; 
+    color: transparent; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-hidden {
+    display: none;
+}
+
+#botones {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#botones button {
+    background-color: #111111;
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.5rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
